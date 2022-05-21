@@ -92,3 +92,43 @@ hr {
         margin: 0px 380px;
         padding: 22px;
     }
+
+
+
+
+
+    /* media queary */
+    @media only screen and (max-width: 600px){
+        .description {
+                text-align: center;
+                margin: 0px 10px;
+                padding: 10px;
+            }
+        .nav-padding{
+                margin-right: 0 !important;
+        }
+        .total-number{
+                padding-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+        }
+        .width-imp{
+                width: 300px;
+                margin: auto !important;
+                
+                
+        }
+        .img {
+                width: 20%;
+                padding: 0px 14px;
+                margin: auto;
+                
+        }
+        .media-d{
+                flex-direction: row-reverse;
+        }
+        .toggle-bar{
+                position: absolute;
+                margin: -55px -25px;
+        }
+        }
