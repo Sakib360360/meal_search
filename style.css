@@ -1,0 +1,94 @@
+body{
+        background-color: #232c34 !important;
+        color: aliceblue;
+}
+.nav-display {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+}
+/* nav brand image */
+.img {
+        width: 9%;
+        padding: 0px 14px;
+        
+}
+.nav-padding{
+        margin-right: -12rem !important;
+}
+.item-hover:hover{
+        background-color: blueviolet;
+        border-radius: 5px;
+}
+.img-font{
+        font-family: 'Smooch', cursive;
+        font-size: 44px;
+}
+.font{
+        font-size: 25px;
+}
+.bg-nav {
+        background-color: #1d262e!important;
+        color: aliceblue !important;
+}
+/* footer */
+footer{
+        background-color: #1d262e!important;
+        color: aliceblue !important;
+}
+
+
+
+/* all h1 */
+.h-1{
+        color: aliceblue !important;
+        font-size: 70px;
+}
+.color{
+        color: aliceblue !important;
+}
+.btn-s {
+        background-color: #337c7a;
+        padding: 11px 27px;
+        border-radius: 10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+.p-subscribe{
+        margin-top: 15px;
+    }
+p{
+        font-size: 18px;
+}
+.bg{
+        background-color: #1d262e;
+        color: aliceblue !important;
+}
+.width-imp{
+        width: 450px;
+}
+hr {
+        
+        border: 2px solid;
+}
+.hr{
+        margin: 10px 160px;
+        border: 2px solid;  
+}
+.total-number {
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+
+}
+.number-padding {
+        padding: 2px 45px;
+}
+
+.description {
+        text-align: center;
+        margin: 0px 380px;
+        padding: 22px;
+    }
