@@ -203,6 +203,7 @@ hr {
         .d-flex {
                 display: flex!important;
                 flex-direction: column;
+                padding-top: 25px;
             }
             .menu {
                 /* width: 330px; */
