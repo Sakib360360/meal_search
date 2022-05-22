@@ -9,10 +9,9 @@
 }
 /* nav brand image */
 .img {
-        width: 9%;
-        padding: 0px 14px;
-        
-}
+        width: 18%;
+        padding: 0px 15px;
+    }
 .nav-padding{
         margin-right: -12rem !important;
 }
@@ -174,8 +173,8 @@ hr {
                 
         }
         .img {
-                width: 20%;
-                padding: 0px 14px;
+                width: 25%;
+                padding: 0px 5px;
                 margin: auto;
                 
         }
@@ -183,7 +182,7 @@ hr {
                 flex-direction: row-reverse;
         }
         .social-media {
-                /* width: 400px; */
+                width: auto;
                 display: flex;
                 margin: auto;
                 margin-bottom: 15px;
@@ -206,7 +205,7 @@ hr {
                 padding-top: 25px;
             }
             .menu {
-                /* width: 330px; */
+                 width: auto; 
                 display: flex;
                 margin: auto;
                 margin-bottom: 30px;
