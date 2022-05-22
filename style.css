@@ -1,6 +1,7 @@
-body{
+.body{
         background-color: #232c34 !important;
         color: aliceblue;
+        min-height: 700px;
 }
 .nav-display {
         display: flex !important;
@@ -93,6 +94,60 @@ hr {
         padding: 22px;
     }
 
+/* footer menu */
+
+.f-p {
+        width: 300px;
+        margin: 20px 66px;
+    }
+
+.social-media {
+        width: 400px;
+        display: flex;
+        margin: 20px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+.social-item {
+        padding: 0px 11px !important;
+        font-size: 44px;
+        text-align: center;
+    }
+.social-item:hover{
+        color: #841b1b;
+        cursor: pointer;
+}
+.menu{
+        width: 400px;
+        display: flex;
+        margin: 20px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+}
+.navMenu {
+        
+        top: 50%;
+        left: 50%;
+        
+}
+      
+.navMenu a {
+        color: #f6f4e6;
+        text-decoration: none;
+        font-size: 1.2em;
+        
+        display: inline-block;
+        width: 80px;
+        
+}
+      
+.navMenu a:hover {
+        color: #841b1b;
+}
+
+
 
 
 
@@ -127,8 +182,52 @@ hr {
         .media-d{
                 flex-direction: row-reverse;
         }
+        .social-media {
+                /* width: 400px; */
+                display: flex;
+                margin: auto;
+                margin-bottom: 15px;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .social-item {
+                padding: 0px 8px !important;
+                font-size: 26px;
+                text-align: center;
+            }
         .toggle-bar{
                 position: absolute;
                 margin: -55px -25px;
         }
+        .d-flex {
+                display: flex!important;
+                flex-direction: column;
+            }
+            .menu {
+                /* width: 330px; */
+                display: flex;
+                margin: auto;
+                margin-bottom: 30px;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .f-p {
+                width: 260px;
+                margin: auto;
+            }
+        .navMenu a {
+                color: #f6f4e6;
+                text-decoration: none;
+                font-size: 1em;
+                display: inline-block;
+                width: 60px;
+                /* display: flex; */
+                /* flex-direction: row; */
+                /* flex-wrap: nowrap; */
+                /* align-content: center; */
+                /* justify-content: center; */
+                align-items: center;
+            }
         }
